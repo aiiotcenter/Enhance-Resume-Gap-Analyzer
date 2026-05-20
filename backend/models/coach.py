@@ -93,7 +93,9 @@ def batch_rewrite_bullets(bad_bullets_list, jd_text):
     Here are {len(bad_bullets_list)} poorly written resume bullet points.
     Rewrite EACH bullet point to be highly impactful, using industry-standard "key expressions" from the job description.
     
-    CRITICAL INSTRUCTION: You MUST return a JSON array of strings containing exactly {len(bad_bullets_list)} rewritten bullet points, corresponding to the input order. Do NOT wrap it in a dictionary.
+    CRITICAL INSTRUCTION 1: You MUST return a JSON array of strings containing exactly {len(bad_bullets_list)} rewritten bullet points, corresponding to the input order. Do NOT wrap it in a dictionary.
+    
+    CRITICAL INSTRUCTION 2: If the original bullet point does NOT contain a measurable metric (like a percentage, dollar amount, or time saved), you MUST generate and insert a realistic, conservative metric into your rewrite (e.g., "by 15%", "by 20%", or "saving 10 hours per week"). Make the number sound highly plausible for the described task. Do not use placeholders.
     
     Original Bullets:
     {bullets_text}
