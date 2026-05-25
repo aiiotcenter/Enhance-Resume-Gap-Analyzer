@@ -99,18 +99,4 @@ The frontend will run on `http://localhost:3000`
 5. Accept or modify the proposed rewrites
 6. Export your optimized resume as a PDF
 
-## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 💬 Support
-
-For issues, questions, or suggestions, please open an issue on the project repository.
-
----
-
-**Built with ❤️ to help job seekers land their dream roles.**
