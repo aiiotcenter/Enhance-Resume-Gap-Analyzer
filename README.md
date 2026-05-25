@@ -1,4 +1,4 @@
-# 🚀 ResumePilot AI
+# Enhance Resume Gap Analyzer
 
 ResumePilot AI is an enterprise-grade, AI-powered resume optimization platform. It bridges the gap between raw applicant data and Applicant Tracking System (ATS) requirements using advanced Natural Language Processing (NLP), TF-IDF vectorization, and Generative AI. 
 
